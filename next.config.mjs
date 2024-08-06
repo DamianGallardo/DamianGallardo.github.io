@@ -2,9 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  output: "export",
+  output: "standalone",
   distDir: ".next",
- 
 }
 
 export default nextConfig;
