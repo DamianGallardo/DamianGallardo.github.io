@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import AppBarComponent from "@/components/appBar/appBarComponent";
-import FloatingWhatsAppButton from "@/components/floatingWathsapp/floatingWhatsappButton";
 
 
 const inter = Inter({ subsets: ["latin"] });
