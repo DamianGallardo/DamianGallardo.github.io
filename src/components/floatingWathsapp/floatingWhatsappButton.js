@@ -4,7 +4,7 @@
 import React from 'react';
 import './FloatingWhatsAppButton.css'; // Importa el archivo CSS
 
-const FloatingWhatsAppButton = () => {
+export const FloatingWhatsAppButton = () => {
   const handleClick = () => {
     const phoneNumber = '+523329588580';
     const message = 'Hola, quisiera cotizar con ustedes. ¿Me podrían proporcionar más información?';
