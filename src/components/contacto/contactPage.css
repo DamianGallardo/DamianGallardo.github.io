@@ -1,0 +1,29 @@
+/* ContactPage.css */
+.header-image {
+  position: relative !important;
+  height: 400px !important;
+  background-color: white !important; /* Fondo blanco para las franjas */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #fff !important;
+  overflow: hidden !important; /* Oculta cualquier desbordamiento de la imagen */
+}
+
+.header-image::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important; /* Ajusta la imagen para que esté centrada verticalmente */
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-image: url('') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  clip-path: polygon(0 25%, 100% 25%, 100% 25%, 0 25%) !important; /* Deja franjas blancas arriba y abajo */
+}
+
+.header-text {
+  position: relative !important;
+  text-shadow: 2px 2px 2px #000 !important;
+}

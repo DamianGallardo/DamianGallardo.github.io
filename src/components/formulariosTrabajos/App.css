@@ -1,0 +1,24 @@
+.form-enter {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .form-enter-active {
+    max-height: 300px;
+    opacity: 1;
+  }
+  
+  .form-exit {
+    max-height: 300px;
+    opacity: 1;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in, opacity 0.3s ease-in;
+  }
+  
+  .form-exit-active {
+    max-height: 0;
+    opacity: 0;
+  }
+  
